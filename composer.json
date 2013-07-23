@@ -1,0 +1,24 @@
+{
+    "name": "ftec-faculdades/dti-ldap",
+    "description": "Módulo de Ldap (Lightweight Directory Access Protocol) protocolo para atualizar e pesquisar diretórios (usuários) rodando sobre TCP/IP em ZF2 da Ftec | DTI",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "module",
+        "zf2",
+        "dti",
+		"ldap"
+    ],
+    "homepage": "https://github.com/ftec-faculdades/DTILdap",
+    "authors": [
+        {
+            "name": "Sérgio Ernane Munhós Hermes",
+            "email": "sergiohermes@ftec.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "DTILdap": "src/"
+        }
+    }
+}
